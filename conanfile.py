@@ -7,6 +7,7 @@ from conans.tools import Version
 
 class PocoConan(ConanFile):
     name = "poco"
+    version = "1.9.4"
     url = "https://github.com/conan-io/conan-center-index"
     homepage = "https://pocoproject.org"
     topics = ("conan", "poco", "building", "networking", "server", "mobile", "embedded")
